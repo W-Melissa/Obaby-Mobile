@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:obaby_front/widgets/navigation_top_bar.dart';
+import 'package:obaby_front/widgets/bottom_navigation_bar.dart';
+// import 'package:obaby_front/widgets/bottom_navigation_bar.dart';
 
 class ListProfilsView extends StatelessWidget {
   const ListProfilsView({super.key});
 
-  static String name = 'list';
+  static String pageName = 'list';
 
   @override
   Widget build(BuildContext context) {
@@ -16,6 +17,7 @@ class ListProfilsView extends StatelessWidget {
             ],
           )
         ), 
+        bottomNavigationBar: BottomNavigation(selectedIndex: 0)
       );
   }
 }

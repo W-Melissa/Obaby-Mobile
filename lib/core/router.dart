@@ -29,7 +29,7 @@ static GoRouter router = GoRouter(
     routes: [
     GoRoute(
       path: '/',
-      name: ListProfilsView.name,
+      name: ListProfilsView.pageName,
       builder: (context, state) => const ListProfilsView(),
     ),
   ]);
