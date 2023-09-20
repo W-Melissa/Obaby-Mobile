@@ -10,10 +10,14 @@ class ListProfilsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(),
         body: SingleChildScrollView( 
           child: Column(
             children: [
-              Text('test'),
+              Text('Helvetica',
+              style: TextStyle(fontSize: 55),),
+              Text('Verdana',
+              style: TextStyle(fontSize: 55),),
             ],
           )
         ), 

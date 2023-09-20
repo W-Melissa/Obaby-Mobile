@@ -17,17 +17,17 @@ class BottomNavigation extends StatelessWidget {
             BottomNavigationBarItem(
               icon: Icon(Icons.person),
               label: 'profil',
-              backgroundColor: Colors.deepPurple,
+              // backgroundColor: Color.fromRGBO(86, 134, 185, 1),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.format_list_bulleted),
               label: 'list_profils',
-              backgroundColor: Colors.deepPurple,
+              // backgroundColor: Color.fromRGBO(86, 134, 185, 1),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.markunread),
               label: 'messages',
-              backgroundColor: Colors.deepPurple,
+              // backgroundColor: Color.fromRGBO(86, 134, 185, 1),
             ),
           ],
           currentIndex: selectedIndex,
