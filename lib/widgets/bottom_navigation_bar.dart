@@ -3,11 +3,9 @@ import 'package:flutter/material.dart';
 class BottomNavigation extends StatelessWidget {
   const BottomNavigation({
     super.key,
-    // required this.pageName,
     required this.selectedIndex
     });
 
-  // final String pageName;
   final int selectedIndex;
 
   @override
